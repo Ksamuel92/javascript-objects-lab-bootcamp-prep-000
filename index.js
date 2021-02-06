@@ -9,3 +9,6 @@ function updateObjectWithKeyAndValue (obj, key, value) {
   return newObject;
 }
 
+function destructivelyUpdateObjectWithKeyAndValue (obj, key, value) {
+  return obj[key] = value;
+}
