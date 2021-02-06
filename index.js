@@ -5,7 +5,7 @@ const recipes = {
 }
 
 function updateObjectWithKeyAndValue (obj, key, value) {
-   return Object.Assign({}, obj, {[key]:value});
+   return Object.Assign({}, obj, {[key]: value});
   
 }
 
